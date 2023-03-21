@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D21085029C9E3B6006E84BE /* JodelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D21084F29C9E3B6006E84BE /* JodelApp.swift */; };
+		3D21085229C9E3B6006E84BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D21085129C9E3B6006E84BE /* ContentView.swift */; };
+		3D21085429C9E3B6006E84BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D21085329C9E3B6006E84BE /* Assets.xcassets */; };
+		3D21085729C9E3B6006E84BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D21085629C9E3B6006E84BE /* Preview Assets.xcassets */; };
+		3D21086029C9E3CB006E84BE /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D21085E29C9E3CB006E84BE /* Comment.swift */; };
+		3D21086129C9E3CB006E84BE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D21085F29C9E3CB006E84BE /* Post.swift */; };
+		3D21086629C9E3DD006E84BE /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D21086329C9E3DD006E84BE /* PostListView.swift */; };
+		3D21086729C9E3DD006E84BE /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D21086429C9E3DD006E84BE /* PostView.swift */; };
+		3D21086829C9E3DD006E84BE /* TabHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D21086529C9E3DD006E84BE /* TabHostView.swift */; };
+		3D21086B29C9E3E6006E84BE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D21086A29C9E3E6006E84BE /* ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D21084C29C9E3B6006E84BE /* Jodel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jodel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D21084F29C9E3B6006E84BE /* JodelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JodelApp.swift; sourceTree = "<group>"; };
+		3D21085129C9E3B6006E84BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D21085329C9E3B6006E84BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D21085629C9E3B6006E84BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D21085E29C9E3CB006E84BE /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		3D21085F29C9E3CB006E84BE /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3D21086329C9E3DD006E84BE /* PostListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		3D21086429C9E3DD006E84BE /* PostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		3D21086529C9E3DD006E84BE /* TabHostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabHostView.swift; sourceTree = "<group>"; };
+		3D21086A29C9E3E6006E84BE /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D21084929C9E3B6006E84BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D21084329C9E3B6006E84BE = {
+			isa = PBXGroup;
+			children = (
+				3D21084E29C9E3B6006E84BE /* Jodel */,
+				3D21084D29C9E3B6006E84BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D21084D29C9E3B6006E84BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D21084C29C9E3B6006E84BE /* Jodel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D21084E29C9E3B6006E84BE /* Jodel */ = {
+			isa = PBXGroup;
+			children = (
+				3D21086929C9E3E6006E84BE /* viewmodel */,
+				3D21086229C9E3DD006E84BE /* view */,
+				3D21085D29C9E3CB006E84BE /* model */,
+				3D21084F29C9E3B6006E84BE /* JodelApp.swift */,
+				3D21085129C9E3B6006E84BE /* ContentView.swift */,
+				3D21085329C9E3B6006E84BE /* Assets.xcassets */,
+				3D21085529C9E3B6006E84BE /* Preview Content */,
+			);
+			path = Jodel;
+			sourceTree = "<group>";
+		};
+		3D21085529C9E3B6006E84BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D21085629C9E3B6006E84BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D21085D29C9E3CB006E84BE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3D21085E29C9E3CB006E84BE /* Comment.swift */,
+				3D21085F29C9E3CB006E84BE /* Post.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3D21086229C9E3DD006E84BE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3D21086329C9E3DD006E84BE /* PostListView.swift */,
+				3D21086429C9E3DD006E84BE /* PostView.swift */,
+				3D21086529C9E3DD006E84BE /* TabHostView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3D21086929C9E3E6006E84BE /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				3D21086A29C9E3E6006E84BE /* ViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D21084B29C9E3B6006E84BE /* Jodel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D21085A29C9E3B6006E84BE /* Build configuration list for PBXNativeTarget "Jodel" */;
+			buildPhases = (
+				3D21084829C9E3B6006E84BE /* Sources */,
+				3D21084929C9E3B6006E84BE /* Frameworks */,
+				3D21084A29C9E3B6006E84BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jodel;
+			productName = Jodel;
+			productReference = 3D21084C29C9E3B6006E84BE /* Jodel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D21084429C9E3B6006E84BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3D21084B29C9E3B6006E84BE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 3D21084729C9E3B6006E84BE /* Build configuration list for PBXProject "Jodel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D21084329C9E3B6006E84BE;
+			productRefGroup = 3D21084D29C9E3B6006E84BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D21084B29C9E3B6006E84BE /* Jodel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D21084A29C9E3B6006E84BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D21085729C9E3B6006E84BE /* Preview Assets.xcassets in Resources */,
+				3D21085429C9E3B6006E84BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D21084829C9E3B6006E84BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D21085229C9E3B6006E84BE /* ContentView.swift in Sources */,
+				3D21086029C9E3CB006E84BE /* Comment.swift in Sources */,
+				3D21085029C9E3B6006E84BE /* JodelApp.swift in Sources */,
+				3D21086129C9E3CB006E84BE /* Post.swift in Sources */,
+				3D21086829C9E3DD006E84BE /* TabHostView.swift in Sources */,
+				3D21086729C9E3DD006E84BE /* PostView.swift in Sources */,
+				3D21086B29C9E3E6006E84BE /* ViewModel.swift in Sources */,
+				3D21086629C9E3DD006E84BE /* PostListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3D21085829C9E3B6006E84BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D21085929C9E3B6006E84BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D21085B29C9E3B6006E84BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jodel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.jana.Jodel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D21085C29C9E3B6006E84BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jodel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.jana.Jodel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D21084729C9E3B6006E84BE /* Build configuration list for PBXProject "Jodel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D21085829C9E3B6006E84BE /* Debug */,
+				3D21085929C9E3B6006E84BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D21085A29C9E3B6006E84BE /* Build configuration list for PBXNativeTarget "Jodel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D21085B29C9E3B6006E84BE /* Debug */,
+				3D21085C29C9E3B6006E84BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D21084429C9E3B6006E84BE /* Project object */;
+}
